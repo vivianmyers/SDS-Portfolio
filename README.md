@@ -1,7 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BrlY_cSN)
-# final-project
-This is an empty repo for your final project. 
+# Portfolio – Vivian Myers
 
-You can update the readme if you want. 
+Welcome to my informatics portfolio!  
+This repository website showcases some of my personal and class projects at the intersection of **computer science** and **biology**.
 
-[Here are the instructions](https://nics-github.github.io/SDS192/course-materials/Final-Project/Project.html)
+---
+
+## About
+
+I’m **Vivian Myers**, a Computer Science & Biology major at **Smith College**, interested in **computational biology** and **genomics**.  
+This portfolio highlights my work using **R**, **Python**, and **other tools** to understand datasets.
