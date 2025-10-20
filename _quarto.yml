@@ -3,15 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Vivian's Final Project Website"
+  title: "Vivian's Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - project_1/scorecard_analysis.qmd
-      - project_2/WCA_analysis.qmd
-      - project_3/mapping.qmd
+      - project_1/Dementia.qmd
+      - project_2/cBioPortal.qmd
 
 format:
   html:
