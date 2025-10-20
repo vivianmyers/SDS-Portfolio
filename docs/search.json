@@ -109,7 +109,7 @@
     "href": "index.html",
     "title": "Vivian Myers Portfolio",
     "section": "",
-    "text": "Sample Visualization of Dementia Severity by Age and Gender"
+    "text": "This website showcases personal, in-class, and in-progress projects relating to bioinformatics."
   },
   {
     "objectID": "index.html#project-1",
@@ -206,8 +206,8 @@
     "objectID": "index.html#neuroimaging-analysis",
     "href": "index.html#neuroimaging-analysis",
     "title": "Vivian Myers Portfolio",
-    "section": "Neuroimaging Analysis",
-    "text": "Neuroimaging Analysis\nAn analysis of OASIS MRI neuroimaging datasets on Dementia."
+    "section": "2. Neuroimaging Analysis",
+    "text": "2. Neuroimaging Analysis\nAn analysis of OASIS MRI neuroimaging datasets on Dementia."
   },
   {
     "objectID": "project_1/cBioPortal.html",
@@ -255,7 +255,14 @@
     "objectID": "index.html#pan-cancer-analysis-of-tumor-suppressor-genes",
     "href": "index.html#pan-cancer-analysis-of-tumor-suppressor-genes",
     "title": "Vivian Myers Portfolio",
-    "section": "Pan Cancer Analysis of Tumor Suppressor Genes",
-    "text": "Pan Cancer Analysis of Tumor Suppressor Genes\nAn analysis of 3 critical tumor suppressor genes using cBioPortal."
+    "section": "1. Pan Cancer Analysis of Tumor Suppressor Genes",
+    "text": "1. Pan Cancer Analysis of Tumor Suppressor Genes\nAn analysis of 3 critical tumor suppressor genes using cBioPortal."
+  },
+  {
+    "objectID": "index.html#in-progress-node-clustering-analysis-for-communities-of-birds",
+    "href": "index.html#in-progress-node-clustering-analysis-for-communities-of-birds",
+    "title": "Vivian Myers Portfolio",
+    "section": "3. In-Progress: Node Clustering Analysis for Communities of Birds",
+    "text": "3. In-Progress: Node Clustering Analysis for Communities of Birds"
   }
 ]

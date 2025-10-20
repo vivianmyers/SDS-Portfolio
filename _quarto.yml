@@ -9,8 +9,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - project_1/Dementia.qmd
-      - project_2/cBioPortal.qmd
+      - text: "Pan Cancer Analysis"
+        href: project_1/cBioPortal.qmd
+      - text: "Neuroimaging Analysis"
+        href: project_2/Dementia.qmd
 
 format:
   html:
