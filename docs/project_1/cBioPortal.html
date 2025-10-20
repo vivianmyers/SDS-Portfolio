@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Vivian Myers">
 
-<title>readme – Vivian's Final Project Website</title>
+<title>PanCancer Analysis of Tumor Suppressors – Vivian’s Final Project Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b6254045a21d07dd46cfe160e8c2e3db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Vivian’s Final Project Website</span>
     </a>
   </div>
@@ -89,23 +90,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../project_1/scorecard_analysis.html"> 
+    <a class="nav-link" href="../project_1/scorecard_analysis.html"> 
 <span class="menu-text">Project 1</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../project_2/WCA_analysis.html"> 
-<span class="menu-text">Project 2</span></a>
+    <span class="nav-link">
+<span class="menu-text">project_2/WCA_analysis.qmd</span>
+    </span>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../project_3/mapping.html"> 
+    <a class="nav-link" href="../project_3/mapping.html"> 
 <span class="menu-text">Project 3</span></a>
   </li>  
 </ul>
@@ -119,18 +121,195 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#motivation" id="toc-motivation" class="nav-link" data-scroll-target="#motivation">Motivation</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  </ul></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a>
+  <ul class="collapse">
+  <li><a href="#cancer-types-summary" id="toc-cancer-types-summary" class="nav-link" data-scroll-target="#cancer-types-summary">Cancer Types Summary</a>
+  <ul class="collapse">
+  <li><a href="#tp53" id="toc-tp53" class="nav-link" data-scroll-target="#tp53">TP53</a></li>
+  <li><a href="#apc" id="toc-apc" class="nav-link" data-scroll-target="#apc">APC</a></li>
+  <li><a href="#rb1" id="toc-rb1" class="nav-link" data-scroll-target="#rb1">RB1</a></li>
+  </ul></li>
+  <li><a href="#survival-rate" id="toc-survival-rate" class="nav-link" data-scroll-target="#survival-rate">Survival Rate</a>
+  <ul class="collapse">
+  <li><a href="#tp53-1" id="toc-tp53-1" class="nav-link" data-scroll-target="#tp53-1">TP53</a></li>
+  <li><a href="#apc-1" id="toc-apc-1" class="nav-link" data-scroll-target="#apc-1">APC</a></li>
+  <li><a href="#rb1-1" id="toc-rb1-1" class="nav-link" data-scroll-target="#rb1-1">RB1</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PanCancer Analysis of Tumor Suppressors</h1>
+<p class="subtitle lead">Using cBioPortal</p>
+</div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Vivian Myers </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Smith College
+          </p>
+      </div>
+  </div>
 
-<p>This just has one extra file showing the possible scrambles of the rubix cube.</p>
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">Invalid Date</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The purpose of this project is to use cBioPortal to perform a Pan-Cancer analysis of tumor suppressor genes(TSG). This project builds on work done at the Immunology and Precision Oncology Lab at the Cleveland Clinic’s Lerner Research Institute.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Poster.png" class="img-fluid figure-img"></p>
+<figcaption>Poster on Precision Oncology (Presented at Lerner Research Summer Poster Session)</figcaption>
+</figure>
+</div>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Precision oncology seeks to tailor cancer treatment based on each tumor’s genetic makeup. This project focuses on understanding how tumor suppressor genes (key regulators of cell growth and DNA repair) are altered across cancer types.</p>
+</section>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>We will query the <a href="https://pubmed.ncbi.nlm.nih.gov/28481359/">2017 MSK-IMPACT Clinical Sequencing Cohort</a> PanCancer dataset for the following genes:</p>
+<ul>
+<li>TP53: A key tumor suppressor gene that controls cell cycle arrest, apoptosis, and DNA repair</li>
+<li>APC: Controls cell growth and adhesion, preventing colon cancer.</li>
+<li>RB1: Regulates cell cycle progression and prevents uncontrolled cell division.</li>
+</ul>
+</section>
+</section>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<section id="cancer-types-summary" class="level2">
+<h2 class="anchored" data-anchor-id="cancer-types-summary">Cancer Types Summary</h2>
+<section id="tp53" class="level3">
+<h3 class="anchored" data-anchor-id="tp53">TP53</h3>
+<p>TP53 is a well-known and critical TSG which controls cell cycle arrest, apoptisis, and DNA repair.</p>
+<div id="fig-tp53type" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tp53type-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="tp53_types.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tp53type-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: TP53 Cancer Type Summary
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-tp53type" class="quarto-xref">Figure&nbsp;1</a> is a summary of Alteration Freq. vs Cancer Types. TP53 was altered in over 80% of patients with Small Cell Lung Cancer, and ~70% of patients with Colerectal, Ovarian, and Esophagogastric cancers. Across each remaining type, TP53 is frequently altered for almost every cancer type.</p>
+</section>
+<section id="apc" class="level3">
+<h3 class="anchored" data-anchor-id="apc">APC</h3>
+<p>APC is another key TSG which regulates cell growth and adhesion.</p>
+<div id="fig-apctype" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-apctype-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="apc_types.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-apctype-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: APC Cancer Type Summary
+</figcaption>
+</figure>
+</div>
+<p>Again, <a href="#fig-apctype" class="quarto-xref">Figure&nbsp;2</a> is a summary of Gene Alteration Freq. vs Cancer Type. APC is altered in almost 80% of patients with Colorectal Cancer. The mutation rate for other cancer types drops sharply, with Small Bowel Cancer following at ~40% alteration freq. This visualization indicates that APC is correlated with Colorectal cancer.</p>
+</section>
+<section id="rb1" class="level3">
+<h3 class="anchored" data-anchor-id="rb1">RB1</h3>
+<p>RB1, another cell cycle regulator, helps control progression and prevents uncontrolled cell division.</p>
+<div id="fig-rb1type" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rb1type-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="rb1_types.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rb1type-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: RB1 Cancer Type Summary
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-rb1type" class="quarto-xref">Figure&nbsp;3</a> summarizes Gene Alteration Frequency and Cancer Type. We see an almost 80% alteration frequency for RB1 in Small Cell Lung Cancer, suggesting some sort of correlation. Alteration frequency decreases sharply, with Uterine Sarcoma following SCLC at 40% frequency. RB1 mutations are prevalent in Small Cell Lung Cancer.</p>
+</section>
+</section>
+<section id="survival-rate" class="level2">
+<h2 class="anchored" data-anchor-id="survival-rate">Survival Rate</h2>
+<section id="tp53-1" class="level3">
+<h3 class="anchored" data-anchor-id="tp53-1">TP53</h3>
+<p>Suivival rate is strongly correlated with alterations in TP53.</p>
+<p><img src="tp53survival.png" id="fig-tp53-survival" class="img-fluid" alt="TP53 Survival Rates"> <strong>?@fig-tp53-survival</strong> shows that patients with altered TP53 genes have a significantly lower survival rate than patients with an unaltered gene. This indicates that cancer patients, on average, have a lower chance of survival with a mutated TP53 TSG.</p>
+</section>
+<section id="apc-1" class="level3">
+<h3 class="anchored" data-anchor-id="apc-1">APC</h3>
+<div id="fig-apc-survival" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-apc-survival-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="apcsurvival.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-apc-survival-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: APC Survival Rates
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-apc-survival" class="quarto-xref">Figure&nbsp;4</a> shows no statistically significant relationship between alterations in APC and survival rate. On average, unaltered patients and altered patients had similar survival rates. This indicates that APC, while till being a TSG, may not affect survival rate.</p>
+</section>
+<section id="rb1-1" class="level3">
+<h3 class="anchored" data-anchor-id="rb1-1">RB1</h3>
+<div id="fig-rb1-survival" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rb1-survival-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="rb1survival.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rb1-survival-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: RB1 Survival Rates
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-rb1-survival" class="quarto-xref">Figure&nbsp;5</a> shows a strong correlation between RB1 mutations and survival rate. RB1 mutations may often to a decreased survival rate in cancer patients.</p>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>This Pan-Cancer analysis allowed us to visualize and understand how tumor suppressor genes affect patients. While there are many different factors to consider, genetics proves its importance in oncology and cancer treatment.</p>
+<p>There may be biases reflected in the data that we did not consider (such as race, background, socioeconomic status, etc).</p>
+<p>Overall, these findings reinforce the central role of TSGs in cancer progression and underscore the value of integrative genomic analysis in precision oncology. Future work can expand on these results by linking tumor suppressor alterations to drug response, immune activity, and clinical outcomes, helping guide more effective, personalized cancer therapies.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -215,8 +394,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -327,7 +504,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

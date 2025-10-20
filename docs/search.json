@@ -107,28 +107,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "SDS192 Final Project",
+    "title": "Vivian Myers Portfolio",
     "section": "",
     "text": "Sample Visualization of Dementia Severity by Age and Gender"
   },
   {
     "objectID": "index.html#project-1",
     "href": "index.html#project-1",
-    "title": "SDS192 Final Project",
+    "title": "Vivian Myers Portfolio",
     "section": "Project 1",
     "text": "Project 1\nAn analysis of the College Scorecard dataset."
   },
   {
     "objectID": "index.html#project-2",
     "href": "index.html#project-2",
-    "title": "SDS192 Final Project",
+    "title": "Vivian Myers Portfolio",
     "section": "Project 2",
-    "text": "Project 2\nAn analysis of the World Cube Association’s Rubix Cube competitions."
+    "text": "Project 2\nAn analysis of OASIS MRI neuroimaging datasets on Dementia."
   },
   {
     "objectID": "index.html#project-3",
     "href": "index.html#project-3",
-    "title": "SDS192 Final Project",
+    "title": "Vivian Myers Portfolio",
     "section": "Project 3",
     "text": "Project 3\nAn analysis of honey production in the USA."
   },
@@ -138,5 +138,124 @@
     "title": "About",
     "section": "",
     "text": "Vivian Myers is a Computer Science and Biology major at Smith College, Class of 2028. She is from Cleveland, Ohio. Outside of academics, she enjoys gardening, listening to music, and playing with her cat."
+  },
+  {
+    "objectID": "project_2/SDS100Final copy.html",
+    "href": "project_2/SDS100Final copy.html",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "The main research question my data can be used to address is: What factors correlate with dementia? This data1 was retrieved from MRI and Alzheimers Kaggle. The original data set was from OASIS, and data was collected through laboratory visits. OASIS’s goal was to make neuroimaging data sets more accessible and promote scientific discovery.\n\n\n\nFour MRI scan of progressing Alzheimer’s disease.\n\n\n\n\n\nThe dplyr::glimpse() function can be used to get a quick overview of a data set’s contents.\n\n\nRows: 235\nColumns: 6\n$ age   &lt;dbl&gt; 74, 55, 73, 74, 52, 81, 76, 82, 39, 89, 48, 80, 69, 82, 58, 86, …\n$ m_f   &lt;chr&gt; \"F\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"M\", \"M\", \"F\", \"F\", \"F\", \"F\",…\n$ educ  &lt;dbl&gt; 2, 4, 4, 5, 3, 5, 2, 2, 3, 5, 5, 3, 2, 2, 5, 2, 2, 1, 4, 4, 5, 3…\n$ cdr   &lt;dbl&gt; 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5,…\n$ e_tiv &lt;dbl&gt; 1344, 1147, 1454, 1636, 1321, 1664, 1738, 1477, 1636, 1536, 1326…\n$ n_wbv &lt;dbl&gt; 0.743, 0.810, 0.708, 0.689, 0.827, 0.679, 0.719, 0.739, 0.813, 0…\n\n\nOne row in the data set is one participant. For example, the first row is a 74 year old female participant who graduated high school. She has no signs of dementia. Her brain has a volume of 1344 mL, which is 74.3% of the expected total brain volume accounting for her head size.\n\nage: Age in years.\nm_f: Gender, unclear how they define/determined gender here (self-identification, sex at birth, etc).\neduc: Education level. 1: did not graduate high school, 2: graduated high school, 3: did not graduate college, 4: graduated college, 5: beyond college.2\ncdr: Clinical Dementia Rating. 0: non-demented, 0.5: very mild dementia, 1: mild dementia, 2: moderate dementia. Participants with CDR above 0 were diagnosed with probable Alzheimer’s.3\ne_tiv: Estimated total intracranial volume, which is the volume of the cranial cavity in mL.\nn_wbv: Normalized whole brain volume, which is the brain volume relative to total intracranial volume."
+  },
+  {
+    "objectID": "project_2/SDS100Final copy.html#topic-origin",
+    "href": "project_2/SDS100Final copy.html#topic-origin",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "The main research question my data can be used to address is: What factors correlate with dementia? This data1 was retrieved from MRI and Alzheimers Kaggle. The original data set was from OASIS, and data was collected through laboratory visits. OASIS’s goal was to make neuroimaging data sets more accessible and promote scientific discovery.\n\n\n\nFour MRI scan of progressing Alzheimer’s disease."
+  },
+  {
+    "objectID": "project_2/SDS100Final copy.html#data-wrangling",
+    "href": "project_2/SDS100Final copy.html#data-wrangling",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "Data wrangling is the process of transforming “raw” data into the format you need for visualization and/or analysis."
+  },
+  {
+    "objectID": "project_2/SDS100Final copy.html#description-of-variables",
+    "href": "project_2/SDS100Final copy.html#description-of-variables",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "The dplyr::glimpse() function can be used to get a quick overview of a data set’s contents.\n\n\nRows: 235\nColumns: 6\n$ age   &lt;dbl&gt; 74, 55, 73, 74, 52, 81, 76, 82, 39, 89, 48, 80, 69, 82, 58, 86, …\n$ m_f   &lt;chr&gt; \"F\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"M\", \"M\", \"F\", \"F\", \"F\", \"F\",…\n$ educ  &lt;dbl&gt; 2, 4, 4, 5, 3, 5, 2, 2, 3, 5, 5, 3, 2, 2, 5, 2, 2, 1, 4, 4, 5, 3…\n$ cdr   &lt;dbl&gt; 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5,…\n$ e_tiv &lt;dbl&gt; 1344, 1147, 1454, 1636, 1321, 1664, 1738, 1477, 1636, 1536, 1326…\n$ n_wbv &lt;dbl&gt; 0.743, 0.810, 0.708, 0.689, 0.827, 0.679, 0.719, 0.739, 0.813, 0…\n\n\nOne row in the data set is one participant. For example, the first row is a 74 year old female participant who graduated high school. She has no signs of dementia. Her brain has a volume of 1344 mL, which is 74.3% of the expected total brain volume accounting for her head size.\n\nage: Age in years.\nm_f: Gender, unclear how they define/determined gender here (self-identification, sex at birth, etc).\neduc: Education level. 1: did not graduate high school, 2: graduated high school, 3: did not graduate college, 4: graduated college, 5: beyond college.2\ncdr: Clinical Dementia Rating. 0: non-demented, 0.5: very mild dementia, 1: mild dementia, 2: moderate dementia. Participants with CDR above 0 were diagnosed with probable Alzheimer’s.3\ne_tiv: Estimated total intracranial volume, which is the volume of the cranial cavity in mL.\nn_wbv: Normalized whole brain volume, which is the brain volume relative to total intracranial volume."
+  },
+  {
+    "objectID": "project_2/SDS100Final copy.html#footnotes",
+    "href": "project_2/SDS100Final copy.html#footnotes",
+    "title": "Intro to Data Science Final Project",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCross sectional data collected in 2007.↩︎\nScale according to OASIS Fact Sheet↩︎\nScale according to OASIS Fact Sheet↩︎"
+  },
+  {
+    "objectID": "project_2/Dementia.html",
+    "href": "project_2/Dementia.html",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "The main research question the data can be used to address is: What factors correlate with dementia? This data1 was retrieved from MRI and Alzheimers Kaggle. The original data set was from OASIS, and data was collected through laboratory visits. OASIS’s goal was to make neuroimaging data sets more accessible and promote scientific discovery.\n\n\n\nFour MRI scan of progressing Alzheimer’s disease.\n\n\n\n\n\nThe dplyr::glimpse() function can be used to get a quick overview of a data set’s contents.\n\n\nRows: 235\nColumns: 6\n$ age   &lt;dbl&gt; 74, 55, 73, 74, 52, 81, 76, 82, 39, 89, 48, 80, 69, 82, 58, 86, …\n$ m_f   &lt;chr&gt; \"F\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"M\", \"M\", \"F\", \"F\", \"F\", \"F\",…\n$ educ  &lt;dbl&gt; 2, 4, 4, 5, 3, 5, 2, 2, 3, 5, 5, 3, 2, 2, 5, 2, 2, 1, 4, 4, 5, 3…\n$ cdr   &lt;dbl&gt; 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5,…\n$ e_tiv &lt;dbl&gt; 1344, 1147, 1454, 1636, 1321, 1664, 1738, 1477, 1636, 1536, 1326…\n$ n_wbv &lt;dbl&gt; 0.743, 0.810, 0.708, 0.689, 0.827, 0.679, 0.719, 0.739, 0.813, 0…\n\n\nOne row in the data set is one participant. For example, the first row is a 74 year old female participant who graduated high school. She has no signs of dementia. Her brain has a volume of 1344 mL, which is 74.3% of the expected total brain volume accounting for her head size.\n\nage: Age in years.\nm_f: Gender, unclear how they define/determined gender here (self-identification, sex at birth, etc).\neduc: Education level. 1: did not graduate high school, 2: graduated high school, 3: did not graduate college, 4: graduated college, 5: beyond college.2\ncdr: Clinical Dementia Rating. 0: non-demented, 0.5: very mild dementia, 1: mild dementia, 2: moderate dementia. Participants with CDR above 0 were diagnosed with probable Alzheimer’s.3\ne_tiv: Estimated total intracranial volume, which is the volume of the cranial cavity in mL.\nn_wbv: Normalized whole brain volume, which is the brain volume relative to total intracranial volume."
+  },
+  {
+    "objectID": "project_2/Dementia.html#topic-origin",
+    "href": "project_2/Dementia.html#topic-origin",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "The main research question the data can be used to address is: What factors correlate with dementia? This data1 was retrieved from MRI and Alzheimers Kaggle. The original data set was from OASIS, and data was collected through laboratory visits. OASIS’s goal was to make neuroimaging data sets more accessible and promote scientific discovery.\n\n\n\nFour MRI scan of progressing Alzheimer’s disease."
+  },
+  {
+    "objectID": "project_2/Dementia.html#description-of-variables",
+    "href": "project_2/Dementia.html#description-of-variables",
+    "title": "Intro to Data Science Final Project",
+    "section": "",
+    "text": "The dplyr::glimpse() function can be used to get a quick overview of a data set’s contents.\n\n\nRows: 235\nColumns: 6\n$ age   &lt;dbl&gt; 74, 55, 73, 74, 52, 81, 76, 82, 39, 89, 48, 80, 69, 82, 58, 86, …\n$ m_f   &lt;chr&gt; \"F\", \"F\", \"F\", \"M\", \"F\", \"F\", \"M\", \"M\", \"M\", \"F\", \"F\", \"F\", \"F\",…\n$ educ  &lt;dbl&gt; 2, 4, 4, 5, 3, 5, 2, 2, 3, 5, 5, 3, 2, 2, 5, 2, 2, 1, 4, 4, 5, 3…\n$ cdr   &lt;dbl&gt; 0.0, 0.0, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5, 0.0, 0.0, 0.0, 0.5, 0.5,…\n$ e_tiv &lt;dbl&gt; 1344, 1147, 1454, 1636, 1321, 1664, 1738, 1477, 1636, 1536, 1326…\n$ n_wbv &lt;dbl&gt; 0.743, 0.810, 0.708, 0.689, 0.827, 0.679, 0.719, 0.739, 0.813, 0…\n\n\nOne row in the data set is one participant. For example, the first row is a 74 year old female participant who graduated high school. She has no signs of dementia. Her brain has a volume of 1344 mL, which is 74.3% of the expected total brain volume accounting for her head size.\n\nage: Age in years.\nm_f: Gender, unclear how they define/determined gender here (self-identification, sex at birth, etc).\neduc: Education level. 1: did not graduate high school, 2: graduated high school, 3: did not graduate college, 4: graduated college, 5: beyond college.2\ncdr: Clinical Dementia Rating. 0: non-demented, 0.5: very mild dementia, 1: mild dementia, 2: moderate dementia. Participants with CDR above 0 were diagnosed with probable Alzheimer’s.3\ne_tiv: Estimated total intracranial volume, which is the volume of the cranial cavity in mL.\nn_wbv: Normalized whole brain volume, which is the brain volume relative to total intracranial volume."
+  },
+  {
+    "objectID": "project_2/Dementia.html#footnotes",
+    "href": "project_2/Dementia.html#footnotes",
+    "title": "Intro to Data Science Final Project",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCross sectional data collected in 2007.↩︎\nScale according to OASIS Fact Sheet↩︎\nScale according to OASIS Fact Sheet↩︎"
+  },
+  {
+    "objectID": "index.html#neuroimaging-analysis",
+    "href": "index.html#neuroimaging-analysis",
+    "title": "Vivian Myers Portfolio",
+    "section": "Neuroimaging Analysis",
+    "text": "Neuroimaging Analysis\nAn analysis of OASIS MRI neuroimaging datasets on Dementia."
+  },
+  {
+    "objectID": "project_1/cBioPortal.html",
+    "href": "project_1/cBioPortal.html",
+    "title": "PanCancer Analysis of Tumor Suppressors",
+    "section": "",
+    "text": "The purpose of this project is to use cBioPortal to perform a Pan-Cancer analysis of tumor suppressor genes(TSG). This project builds on work done at the Immunology and Precision Oncology Lab at the Cleveland Clinic’s Lerner Research Institute.\n\n\n\nPoster on Precision Oncology (Presented at Lerner Research Summer Poster Session)\n\n\n\n\nPrecision oncology seeks to tailor cancer treatment based on each tumor’s genetic makeup. This project focuses on understanding how tumor suppressor genes (key regulators of cell growth and DNA repair) are altered across cancer types.\n\n\n\nWe will query the 2017 MSK-IMPACT Clinical Sequencing Cohort PanCancer dataset for the following genes:\n\nTP53: A key tumor suppressor gene that controls cell cycle arrest, apoptosis, and DNA repair\nAPC: Controls cell growth and adhesion, preventing colon cancer.\nRB1: Regulates cell cycle progression and prevents uncontrolled cell division."
+  },
+  {
+    "objectID": "project_1/cBioPortal.html#motivation",
+    "href": "project_1/cBioPortal.html#motivation",
+    "title": "PanCancer Analysis of Tumor Suppressors",
+    "section": "",
+    "text": "Precision oncology seeks to tailor cancer treatment based on each tumor’s genetic makeup. This project focuses on understanding how tumor suppressor genes (key regulators of cell growth and DNA repair) are altered across cancer types."
+  },
+  {
+    "objectID": "project_1/cBioPortal.html#overview",
+    "href": "project_1/cBioPortal.html#overview",
+    "title": "PanCancer Analysis of Tumor Suppressors",
+    "section": "",
+    "text": "We will query the 2017 MSK-IMPACT Clinical Sequencing Cohort PanCancer dataset for the following genes:\n\nTP53: A key tumor suppressor gene that controls cell cycle arrest, apoptosis, and DNA repair\nAPC: Controls cell growth and adhesion, preventing colon cancer.\nRB1: Regulates cell cycle progression and prevents uncontrolled cell division."
+  },
+  {
+    "objectID": "project_1/cBioPortal.html#tp53",
+    "href": "project_1/cBioPortal.html#tp53",
+    "title": "PanCancer Analysis of Tumor Suppressors",
+    "section": "TP53",
+    "text": "TP53\n\n\n\n\n\n\nFigure 1: Cancer Type Summary\n\n\n\nFigure 1 shows a summary of Alteration Freq. vs Cancer Types. TP53 was altered in over 80% of patients with Small Cell Lung Cancer, and ~70% of patients with Colerectal, Ovarian, and Esophagogastric Cancers. Across each remaining type, TP53 is frequently altered for almost every cancer type."
+  },
+  {
+    "objectID": "project_1/cBioPortal.html#cancer-types-summary",
+    "href": "project_1/cBioPortal.html#cancer-types-summary",
+    "title": "PanCancer Analysis of Tumor Suppressors",
+    "section": "Cancer Types Summary",
+    "text": "Cancer Types Summary\n\nTP53\nTP53 is a well-known and critical TSG which controls cell cycle arrest, apoptisis, and DNA repair.\n\n\n\n\n\n\nFigure 1: TP53 Cancer Type Summary\n\n\n\nFigure 1 is a summary of Alteration Freq. vs Cancer Types. TP53 was altered in over 80% of patients with Small Cell Lung Cancer, and ~70% of patients with Colerectal, Ovarian, and Esophagogastric cancers. Across each remaining type, TP53 is frequently altered for almost every cancer type.\n\n\nAPC\nAPC is another key TSG which regulates cell growth and adhesion.\n\n\n\n\n\n\nFigure 2: APC Cancer Type Summary\n\n\n\nAgain, Figure 2 is a summary of Gene Alteration Freq. vs Cancer Type. APC is altered in almost 80% of patients with Colorectal Cancer. The mutation rate for other cancer types drops sharply, with Small Bowel Cancer following at ~40% alteration freq. This visualization indicates that APC is correlated with Colorectal cancer.\n\n\nRB1\nRB1, another cell cycle regulator, helps control progression and prevents uncontrolled cell division.\n\n\n\n\n\n\nFigure 3: RB1 Cancer Type Summary\n\n\n\nFigure 3 summarizes Gene Alteration Frequency and Cancer Type. We see an almost 80% alteration frequency for RB1 in Small Cell Lung Cancer, suggesting some sort of correlation. Alteration frequency decreases sharply, with Uterine Sarcoma following SCLC at 40% frequency. RB1 mutations are prevalent in Small Cell Lung Cancer."
+  },
+  {
+    "objectID": "project_1/cBioPortal.html#survival-rate",
+    "href": "project_1/cBioPortal.html#survival-rate",
+    "title": "PanCancer Analysis of Tumor Suppressors",
+    "section": "Survival Rate",
+    "text": "Survival Rate\n\nTP53\nSuivival rate is strongly correlated with alterations in TP53.\n ?@fig-tp53-survival shows that patients with altered TP53 genes have a significantly lower survival rate than patients with an unaltered gene. This indicates that cancer patients, on average, have a lower chance of survival with a mutated TP53 TSG.\n\n\nAPC\n\n\n\n\n\n\nFigure 4: APC Survival Rates\n\n\n\nFigure 4 shows no statistically significant relationship between alterations in APC and survival rate. On average, unaltered patients and altered patients had similar survival rates. This indicates that APC, while till being a TSG, may not affect survival rate.\n\n\nRB1\n\n\n\n\n\n\nFigure 5: RB1 Survival Rates\n\n\n\nFigure 5 shows a strong correlation between RB1 mutations and survival rate. RB1 mutations may often to a decreased survival rate in cancer patients."
+  },
+  {
+    "objectID": "index.html#pan-cancer-analysis-of-tumor-suppressor-genes",
+    "href": "index.html#pan-cancer-analysis-of-tumor-suppressor-genes",
+    "title": "Vivian Myers Portfolio",
+    "section": "Pan Cancer Analysis of Tumor Suppressor Genes",
+    "text": "Pan Cancer Analysis of Tumor Suppressor Genes\nAn analysis of 3 critical tumor suppressor genes using cBioPortal."
   }
 ]

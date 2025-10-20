@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vivian's Final Project Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - project_1/scorecard_analysis.qmd
+      - project_2/WCA_analysis.qmd
+      - project_3/mapping.qmd
+
+format:
+  html:
+    theme: pulse
+    css: styles.css
+    toc: true
+
+editor: visual
+
