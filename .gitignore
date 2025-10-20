@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+
+project_2/extra_data
+project_2/WCA_data
+project_3/archive

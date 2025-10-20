@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "project_1/scorecard_analysis.html#paragraph-1",
+    "href": "project_1/scorecard_analysis.html#paragraph-1",
+    "title": "Project 1",
+    "section": "Paragraph 1",
+    "text": "Paragraph 1\nThe project was created using the College Scorecard dataset, which belongs to the U.S. Department of Education. It contains data about institutions as a whole and data about certain fields of study within institutions. For this project, we will only be focusing on schools in the Massachusetts region.\nAccording to the Technical Documentation: College Scoreboard Institution-Level Data, data was collected from institutions’ federal reports, data on federal financial aid, and tax information. Only information about Integrated Postsecondary Education Data System (IPEDS) institutions that participate in Title IV programs and IPEDS institutions that do not participate in Title IV but have similar criteria are included in this dataset.\nThis project aims to answer the following question: How is the cost of attendance affected by school type, admissions rate, and highest offered degree for Massachusetts (MA) colleges in 2021? We visualized admissions rate, school type, highest degree offered, and cost of attendance data for MA colleges."
+  },
+  {
+    "objectID": "project_1/scorecard_analysis.html#paragraph-2",
+    "href": "project_1/scorecard_analysis.html#paragraph-2",
+    "title": "Project 1",
+    "section": "Paragraph 2",
+    "text": "Paragraph 2\nFor the first plot, we visualized school type, cost of attendance, and admissions rate using a scatter plot. We can see that schools with admission rates below 0.25 tend to have costs of attendance that are higher than $60,000. This indicates that schools with low admissions rates tend to be more expensive than schools with high admissions rates. The color-coding of the data points allows us to realize that private nonprofit schools tend to be the most expensive.\nFor the second plot, we visualized the cost of attendance based on school type using a box plot. We can see how the median and range of cost compares to school type (private vs. public). In this plot, we can see the medians of each school type are 1) Private for-profit: ~$30,000 2) Private nonprofit: ~$55,000 and 3) Public: &lt;$20,000. This indicates a clear trend. Private institutions in MA are more expensive than public schools.\nFor the third plot, we visualized the relationship between highest degree type offered and cost. In this plot, we can see that public schools which only offer associate’s degrees are cheaper (~$10,000) than public schools which offer graduate level degrees(~$20,000). This indicates that schools with a higher degree level offered are more expensive."
+  },
+  {
+    "objectID": "project_1/scorecard_analysis.html#paragraph-3",
+    "href": "project_1/scorecard_analysis.html#paragraph-3",
+    "title": "Project 1",
+    "section": "Paragraph 3",
+    "text": "Paragraph 3\nThe key takeaway from our analysis is that private schools with low-admission rates tend to have a higher cost of attendance than public schools with high-admission rates.\nAn ethical concern that should be considered when analyzing this dataset is informed consent and voluntary participation. For example, did students know or have a say in whether or not their test score (SAT/ACT) data could be collected and used in this study? This concern is important for data analysis and ethics."
+  },
+  {
+    "objectID": "project_3/mapping.html",
+    "href": "project_3/mapping.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "Blog post\nOur analysis mapped Honey Production in the USA (1998-2012). This dataset was produced by the National Agricultural Statistics Service. In 2006, concerns were raised about Colony Collapse disorder and the decline of honey bee populations in the US. Therefore, our question was: What is the relationship between states and honey production around 2006?\nVivian’s Map: The ‘Median Honey Production Revenue by State (2004-2008)’ map plots the revenue each state is making from honey. Median revenue was calculated as median numcol * median yieldpercol * median priceperlb over 2004-2008. North Dakota, South Dakota, California, and Florida had the highest median revenue over this time period. Some states, such as Oklahoma or Alaska, had no honey production data.\nHayden’s Map: The “Distribution of Number of Colonies by State” map visualizes the amount of colonies in each state relative to one another. From this map we can see that North Dakota and California have the most colonies at over 300,000 each. To plot these findings I used the numcol variable to produce a scaled diamond for each of the 41 states that had reported values. The remaining 9 states, such as Massachusetts and Oklahoma, had no reported findings which is highlighted by the lack of diamond.\nFrom our analysis, we were able to conclude that North Dakota is a top honey producer in the U.S. as it is a leading state in terms of number of colonies and revenue collected. Generally speaking, we observed a direct relationship between the number of colonies a state has and their overall gross revenue. When a state has a large number of colonies, they tend to also have a larger gross revenue. Another factor to consider is that each state has its own price per pound which could skew the amount of revenue they collect in relation to the amount of honey they produce. One ethical concern to consider is the missing data that this set contains. Since we don’t have any data for 9 of the 50 states in the U.S. this could’ve skewed the general findings that we came to."
+  },
+  {
+    "objectID": "project_2/WCA_analysis.html",
+    "href": "project_2/WCA_analysis.html",
+    "title": "Project 2",
+    "section": "",
+    "text": "Global Top 15 Competitiors. Source: World Cube Assocation (https://www.worldcubeassociation.org/export/results)\n\n\nBest Average Time (Seconds)\nWorld Rank\nName\nCountry\nGender\n\n\n\n\n4.05\n1\nYiheng Wang (王艺衡)\nChina\nm\n\n\n4.32\n2\nXuanyi Geng (耿暄一)\nChina\nm\n\n\n4.67\n3\nTymon Kolasiński\nPoland\nm\n\n\n4.79\n4\nYufang Du (杜昱方)\nChina\nm\n\n\n4.84\n5\nRuihang Xu (许瑞航)\nChina\nm\n\n\n4.86\n6\nMax Park\nUSA\nm\n\n\n4.94\n7\nLuke Garrett\nUSA\nm\n\n\n4.94\n7\nZhaokun Li (李昭昆)\nChina\nm\n\n\n5.06\n9\nMatty Hiroto Inaba\nUSA\nm\n\n\n5.16\n10\nBofan Zhang (张博藩)\nChina\nm\n\n\n5.24\n11\nLeo Borromeo\nPhilippines\nm\n\n\n5.26\n12\nCaleb Chen\nUSA\nm\n\n\n5.35\n13\nLingkun Jiang (姜凌坤)\nChina\nm\n\n\n5.36\n14\nQixian Cao (曹岂娴)\nChina\nf\n\n\n5.38\n15\nLuke Griesser\nUSA\nm"
+  },
+  {
+    "objectID": "project_2/WCA_analysis.html#setup",
+    "href": "project_2/WCA_analysis.html#setup",
+    "title": "Project 2",
+    "section": "",
+    "text": "Global Top 15 Competitiors. Source: World Cube Assocation (https://www.worldcubeassociation.org/export/results)\n\n\nBest Average Time (Seconds)\nWorld Rank\nName\nCountry\nGender\n\n\n\n\n4.05\n1\nYiheng Wang (王艺衡)\nChina\nm\n\n\n4.32\n2\nXuanyi Geng (耿暄一)\nChina\nm\n\n\n4.67\n3\nTymon Kolasiński\nPoland\nm\n\n\n4.79\n4\nYufang Du (杜昱方)\nChina\nm\n\n\n4.84\n5\nRuihang Xu (许瑞航)\nChina\nm\n\n\n4.86\n6\nMax Park\nUSA\nm\n\n\n4.94\n7\nLuke Garrett\nUSA\nm\n\n\n4.94\n7\nZhaokun Li (李昭昆)\nChina\nm\n\n\n5.06\n9\nMatty Hiroto Inaba\nUSA\nm\n\n\n5.16\n10\nBofan Zhang (张博藩)\nChina\nm\n\n\n5.24\n11\nLeo Borromeo\nPhilippines\nm\n\n\n5.26\n12\nCaleb Chen\nUSA\nm\n\n\n5.35\n13\nLingkun Jiang (姜凌坤)\nChina\nm\n\n\n5.36\n14\nQixian Cao (曹岂娴)\nChina\nf\n\n\n5.38\n15\nLuke Griesser\nUSA\nm"
+  },
+  {
+    "objectID": "project_2/WCA_analysis.html#blog-post",
+    "href": "project_2/WCA_analysis.html#blog-post",
+    "title": "Project 2",
+    "section": "Blog Post",
+    "text": "Blog Post\nParagraph 1:\nThis database contains public information about all official World Cube Association (WCA) competitions, members, and results. The database contains public information about all official WCA competitions, WCA members, and WCA competition results. This comprehensive dataset allows for exploration of performance trends and demographic patterns within the speedcubing community. In this analysis, we focus on the following question: What is the relationship between country and gender among the top global competitors? Combining summary statistics, tables, and visualizations, the analysis aims to uncover performance disparities and demographic imbalances across countries, offering a holistic view of global trends in elite speedcubing.\nParagraph 2:\nTable 1 describes the top 15 global competitors and related demographics. It contains their full names, country, gender, best time, and world rank. It was created by joining tables containing names and ranking information and aggregating/subsetting relevant data. This table reveals that only 1 of the top 15 global competitors is female (Qixian Cao (曹岂娴) from China). Additionally, it reveals that a majority (8/15) of top competitors are from China with 5/18 being from the USA.\nPlot 2 is a bar chart that displays the average best single time per country among the top 50 WCA competitors, with bars colored by gender ratio to reflect the male-to-female composition of each country’s top performers. The chart reveals that competitors from China have the fastest average best times. Additionally, the color gradient representing gender ratio draws attention to the stark gender imbalance across most countries, which emphasizes the male-dominated nature of the competition.\nParagraph 3:\nThe key takeaway from our analysis is the under-representation of females among the top global competitors. Another takeaway is the large representation of China among top competitors. One ethical concern is the privacy of the competitors. Revealing each competitor’s full name and country allows for potentially malicious use of data and privacy violations, especially for younger competitors.\nThe gender disparity among top performers suggests more outreach for underrepresented groups. Furthermore, the geographic concentration of top competitors in certain countries raises questions about access to resources and training opportunities in different regions."
+  },
+  {
+    "objectID": "project_2/extra_data/readme.html",
+    "href": "project_2/extra_data/readme.html",
+    "title": "Vivian's Final Project Website",
+    "section": "",
+    "text": "This just has one extra file showing the possible scrambles of the rubix cube."
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html",
+    "href": "project_2/WCA_data/WAC_README.html",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "Encoding: UTF-8\nDate: March 12, 2025\nExport Format Version: 1.0.0\nContact: WCA Results Team (https://www.worldcubeassociation.org/contact?contactRecipient=wrt)\nWebsite: https://www.worldcubeassociation.org/export/results\n\n\n\nThis database export contains public information about all official WCA competitions, WCA members, and WCA competition results.\n\n\n\nThe goal of this database export is to provide members of the speedcubing community a practical way to perform analysis on competition information for statistical and personal purposes.\n\n\n\nThe information in this file may be re-published, in whole or in part, as long as users are clearly notified of the following:\n\nThis information is based on competition results owned and maintained by the World Cube Assocation, published at https://worldcubeassociation.org/results as of March 12, 2025.\n\n\n\n\nThe WCA database was originally created and maintained by:\n\nClément Gallet, France\nStefan Pochmann, Germany\nJosef Jelinek, Czech Republic\nRon van Bruchem, Netherlands\n\nThe database contents are now maintained by the WCA Results Team, and the software for the database is maintained by the WCA Software Team: https://www.worldcubeassociation.org/about\n\n\n\nThe export contains a metadata.json file, with the following fields:\n\n\n\nField\nSample Value\n\n\n\n\nexport_date\n\"2025-03-12 00:02:02 UTC\"\n\n\nexport_format_version\n\"1.0.0\"\n\n\n\nIf you regularly process this export, we recommend that you check the export_format_version value in your program and and review your code if the major part of the version (the part before the first .) changes.\nIf you are processing the exported data using an automated system, we recommend using a cron job to check the API endpoint at: https://www.worldcubeassociation.org/api/v0/export/public You can use the export_date to detect if there is a new export, and the sql_url and tsv_url will contain the URLs for the corresponding downloads.\n\n\n\nThe database export consists of these tables:\n\n\n\n\n\n\n\nTable\nContents\n\n\n\n\nPersons\nWCA competitors\n\n\nCompetitions\nWCA competitions\n\n\nEvents\nWCA events (3x3x3 Cube, Megaminx, etc)\n\n\nResults\nWCA results per competition+event+round+person\n\n\nRanksSingle\nBest single result per competitor+event and ranks\n\n\nRanksAverage\nBest average result per competitor+event and ranks\n\n\nRoundTypes\nThe round types (first, final, etc)\n\n\nFormats\nThe round formats (best of 3, average of 5, etc)\n\n\nCountries\nCountries\n\n\nContinents\nContinents\n\n\nScrambles\nScrambles\n\n\nchampionships\nChampionship competitions\n\n\neligible_country_iso2s_for_championship\nSee explanation below\n\n\n\nMost of the tables should be self-explanatory, but here are a few specific details:\n\n\nCountries stores include those from the Wikipedia list of countries at http://en.wikipedia.org/wiki/List_of_countries, and may include some countries that no longer exist. The ISO2 column should reflect ISO 3166-1 alpha-2 country codes, for countries that have them. Custom codes may be used in some circumstances.\n\n\n\nScrambles stores all scrambles.\nFor 333mbf, an attempt is comprised of multiple newline-separated scrambles. However, newlines can cause compatibility issues with TSV parsers. Therefore, in the TSV version of the data we replace each newline in a 333mbf scramble with the | character.\n\n\n\neligible_country_iso2s_for_championship stores information about which citizenships are eligible to win special cross-country championship types.\nFor example, greater_china is a special championship type which contains 4 iso2 values: CN, HK, MC and TW. This means that any competitor from China, Hong Kong, Macau, or Taiwan is eligible to win a competition with championship type greater_china.\n\n\n\nPlease see https://www.worldcubeassociation.org/regulations/#article-9-events for information about how results are measured.\nValues of the Results table can be interpreted as follows:\n\nThe result values are in the following fields value1, value2, value3, value4, value5, best, and average.\nThe value -1 means DNF (Did Not Finish).\nThe value -2 means DNS (Did Not Start).\nThe value 0 means “no result”. For example a result in a best-of-3 round has a value of 0 for the value4, value5, and average fields.\nPositive values depend on the event; see the column “format” in Events.\n\nMost events have the format “time”, where the value represents centiseconds. For example, 8653 means 1 minute and 26.53 seconds.\nThe format “number” means the value is a raw number, currently only used by “fewest moves” for number of moves.\n\nFewest moves averages are stored as 100 times the average, rounded.\n\nThe format “multi” is for old and new multi-blind, encoding the time as well as the number of cubes attempted and solved. This is a decimal value, which can be interpreted (“decoded”) as follows:\nold: 1SSAATTTTT\n     solved        = 99 - SS\n     attempted     = AA\n     timeInSeconds = TTTTT (99999 means unknown)\nnew: 0DDTTTTTMM\n     difference    = 99 - DD\n     timeInSeconds = TTTTT (99999 means unknown)\n     missed        = MM\n     solved        = difference + missed\n     attempted     = solved + missed\nIn order to encode data, use the following procedure:\n     solved        = # cubes solved\n     attempted     = # cubes attempted\n     missed        = # cubes missed = attempted - solved\n     DD            = 99 - (solved - missed)\n     TTTTT         = solve time in seconds\n     MM            = missed\nNote that this is designed so that a smaller decimal value means a better result. This format does not support more than 99 attempted cubes, or times greater than 99999 seconds (about 27.7 hours)."
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html#description",
+    "href": "project_2/WCA_data/WAC_README.html#description",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "This database export contains public information about all official WCA competitions, WCA members, and WCA competition results."
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html#goal",
+    "href": "project_2/WCA_data/WAC_README.html#goal",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "The goal of this database export is to provide members of the speedcubing community a practical way to perform analysis on competition information for statistical and personal purposes."
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html#allowed-use",
+    "href": "project_2/WCA_data/WAC_README.html#allowed-use",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "The information in this file may be re-published, in whole or in part, as long as users are clearly notified of the following:\n\nThis information is based on competition results owned and maintained by the World Cube Assocation, published at https://worldcubeassociation.org/results as of March 12, 2025."
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html#acknowledgements",
+    "href": "project_2/WCA_data/WAC_README.html#acknowledgements",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "The WCA database was originally created and maintained by:\n\nClément Gallet, France\nStefan Pochmann, Germany\nJosef Jelinek, Czech Republic\nRon van Bruchem, Netherlands\n\nThe database contents are now maintained by the WCA Results Team, and the software for the database is maintained by the WCA Software Team: https://www.worldcubeassociation.org/about"
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html#date-and-format-version",
+    "href": "project_2/WCA_data/WAC_README.html#date-and-format-version",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "The export contains a metadata.json file, with the following fields:\n\n\n\nField\nSample Value\n\n\n\n\nexport_date\n\"2025-03-12 00:02:02 UTC\"\n\n\nexport_format_version\n\"1.0.0\"\n\n\n\nIf you regularly process this export, we recommend that you check the export_format_version value in your program and and review your code if the major part of the version (the part before the first .) changes.\nIf you are processing the exported data using an automated system, we recommend using a cron job to check the API endpoint at: https://www.worldcubeassociation.org/api/v0/export/public You can use the export_date to detect if there is a new export, and the sql_url and tsv_url will contain the URLs for the corresponding downloads."
+  },
+  {
+    "objectID": "project_2/WCA_data/WAC_README.html#format-version-1.0.0",
+    "href": "project_2/WCA_data/WAC_README.html#format-version-1.0.0",
+    "title": "World Cube Association – Results Database Export",
+    "section": "",
+    "text": "The database export consists of these tables:\n\n\n\n\n\n\n\nTable\nContents\n\n\n\n\nPersons\nWCA competitors\n\n\nCompetitions\nWCA competitions\n\n\nEvents\nWCA events (3x3x3 Cube, Megaminx, etc)\n\n\nResults\nWCA results per competition+event+round+person\n\n\nRanksSingle\nBest single result per competitor+event and ranks\n\n\nRanksAverage\nBest average result per competitor+event and ranks\n\n\nRoundTypes\nThe round types (first, final, etc)\n\n\nFormats\nThe round formats (best of 3, average of 5, etc)\n\n\nCountries\nCountries\n\n\nContinents\nContinents\n\n\nScrambles\nScrambles\n\n\nchampionships\nChampionship competitions\n\n\neligible_country_iso2s_for_championship\nSee explanation below\n\n\n\nMost of the tables should be self-explanatory, but here are a few specific details:\n\n\nCountries stores include those from the Wikipedia list of countries at http://en.wikipedia.org/wiki/List_of_countries, and may include some countries that no longer exist. The ISO2 column should reflect ISO 3166-1 alpha-2 country codes, for countries that have them. Custom codes may be used in some circumstances.\n\n\n\nScrambles stores all scrambles.\nFor 333mbf, an attempt is comprised of multiple newline-separated scrambles. However, newlines can cause compatibility issues with TSV parsers. Therefore, in the TSV version of the data we replace each newline in a 333mbf scramble with the | character.\n\n\n\neligible_country_iso2s_for_championship stores information about which citizenships are eligible to win special cross-country championship types.\nFor example, greater_china is a special championship type which contains 4 iso2 values: CN, HK, MC and TW. This means that any competitor from China, Hong Kong, Macau, or Taiwan is eligible to win a competition with championship type greater_china.\n\n\n\nPlease see https://www.worldcubeassociation.org/regulations/#article-9-events for information about how results are measured.\nValues of the Results table can be interpreted as follows:\n\nThe result values are in the following fields value1, value2, value3, value4, value5, best, and average.\nThe value -1 means DNF (Did Not Finish).\nThe value -2 means DNS (Did Not Start).\nThe value 0 means “no result”. For example a result in a best-of-3 round has a value of 0 for the value4, value5, and average fields.\nPositive values depend on the event; see the column “format” in Events.\n\nMost events have the format “time”, where the value represents centiseconds. For example, 8653 means 1 minute and 26.53 seconds.\nThe format “number” means the value is a raw number, currently only used by “fewest moves” for number of moves.\n\nFewest moves averages are stored as 100 times the average, rounded.\n\nThe format “multi” is for old and new multi-blind, encoding the time as well as the number of cubes attempted and solved. This is a decimal value, which can be interpreted (“decoded”) as follows:\nold: 1SSAATTTTT\n     solved        = 99 - SS\n     attempted     = AA\n     timeInSeconds = TTTTT (99999 means unknown)\nnew: 0DDTTTTTMM\n     difference    = 99 - DD\n     timeInSeconds = TTTTT (99999 means unknown)\n     missed        = MM\n     solved        = difference + missed\n     attempted     = solved + missed\nIn order to encode data, use the following procedure:\n     solved        = # cubes solved\n     attempted     = # cubes attempted\n     missed        = # cubes missed = attempted - solved\n     DD            = 99 - (solved - missed)\n     TTTTT         = solve time in seconds\n     MM            = missed\nNote that this is designed so that a smaller decimal value means a better result. This format does not support more than 99 attempted cubes, or times greater than 99999 seconds (about 27.7 hours)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SDS192 Final Project",
+    "section": "",
+    "text": "Sample Visualization of Dementia Severity by Age and Gender"
+  },
+  {
+    "objectID": "index.html#project-1",
+    "href": "index.html#project-1",
+    "title": "SDS192 Final Project",
+    "section": "Project 1",
+    "text": "Project 1\nAn analysis of the College Scorecard dataset."
+  },
+  {
+    "objectID": "index.html#project-2",
+    "href": "index.html#project-2",
+    "title": "SDS192 Final Project",
+    "section": "Project 2",
+    "text": "Project 2\nAn analysis of the World Cube Association’s Rubix Cube competitions."
+  },
+  {
+    "objectID": "index.html#project-3",
+    "href": "index.html#project-3",
+    "title": "SDS192 Final Project",
+    "section": "Project 3",
+    "text": "Project 3\nAn analysis of honey production in the USA."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Vivian Myers is a Computer Science and Biology major at Smith College, Class of 2028. She is from Cleveland, Ohio. Outside of academics, she enjoys gardening, listening to music, and playing with her cat."
+  }
+]

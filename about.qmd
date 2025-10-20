@@ -1,0 +1,17 @@
+---
+title: "About"
+about:
+  id: myers
+  template: trestles
+  image: "new_folder/cat.jpg"
+  links:
+
+    - icon: github
+      text: GitHub
+      href: https://github.com/vivianmyers
+    - icon: bookmark
+      text: Smith
+      href: https://amgrubb.github.io/grubb-lab/
+---
+
+**Vivian Myers** is a Computer Science and Biology major at Smith College, Class of 2028. She is from Cleveland, Ohio. Outside of academics, she enjoys gardening, listening to music, and playing with her cat.
